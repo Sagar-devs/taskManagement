@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+.container {
+    max-width: 1200px;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        padding-right: 15px;
+    }
+}
